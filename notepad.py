@@ -121,7 +121,7 @@ def Save():
         #save as a old files
         with open(file,'a') as fill:
             foal = fill.write(textarea.get(1.0,END))
-            message.showinfo("file saved","Your file is saved")
+            message.showinfo("file saved","Your file is now saved")
 
 def Open():
     global file
